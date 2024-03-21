@@ -11,10 +11,11 @@ const handler = async (_) => {
 
 		return {
 			statusCode: 200,
-			body: JSON.stringify({ result: data }),
+			body: JSON.stringify(data),
 		};
 	} catch (error) {
-		return { statusCode: 500, body: error.toString() };
+		console.log(error);
+		return { statusCode: 500 };
 	}
 };
 
