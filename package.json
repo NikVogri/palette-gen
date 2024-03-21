@@ -1,0 +1,17 @@
+{
+  "name": "palette-gen",
+  "version": "1.0.0",
+  "description": "Generates a palette of colors for your next project!",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "palette",
+    "generator",
+    "colors"
+  ],
+  "author": "Nik Vogrinec",
+  "license": "MIT",
+  "dependencies": {}
+}
