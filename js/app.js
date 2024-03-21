@@ -1,5 +1,5 @@
 const cardsContainer = document.getElementById("cards");
-const generateButton = document.getElementsByClassName("generate-btn");
+const generateButton = document.querySelector(".generate-btn");
 
 const getColors = async () => {
 	const url = "/.netlify/functions/palette";
